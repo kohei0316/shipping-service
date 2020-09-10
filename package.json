@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kohei0316/shipping-service/issues"
   },
-  "homepage": "https://github.com/kohei0316/shipping-service#readme"
+  "homepage": "https://github.com/kohei0316/shipping-service#readme",
+  "devDependencies": {
+    "sinon": "^9.0.3"
+  }
 }
