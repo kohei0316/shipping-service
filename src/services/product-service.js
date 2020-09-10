@@ -3,8 +3,10 @@ var axios = require("axios");
 
 module.exports = {
   getProductWeight: async function (productId) {
+    let URL =
+      process.env["MICROS_PRODUCTS_URL"] || "product.service:8899/products";
     return axios
-      .get("https://product.service:8899/products/" + productId)
+      .get(`https://${URL}/${productId}`)
       .then((response) => {
         if (
           response.data &&
