@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/kohei0316/shipping-service#readme",
   "devDependencies": {
+    "nock": "^13.0.4",
     "sinon": "^9.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
   }
 }
